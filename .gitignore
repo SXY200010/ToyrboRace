@@ -1,0 +1,65 @@
+# Ignore Unreal Engine temporary, intermediate, and build files
+
+# Project-specific folders
+/Saved/
+/Intermediate/
+/DerivedDataCache/
+/Build/
+
+# C++ binary output
+/Binaries/
+/*.VC.db
+/*.VC.opendb
+/*.sln
+/*.suo
+/*.opensdf
+/*.sdf
+/.vs/
+
+# Auto-generated files
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+*.DS_Store
+
+# Compiled source
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.lib
+*.dylib
+*.so
+*.apk
+*.ipa
+
+# Logs and crash reports
+*.log
+*.dmp
+
+# Cache and backup files
+*.tmp
+*.bak
+*.orig
+*.swp
+
+# Mac specific
+*.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Unreal Plugin binaries
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+
+# Ignore derived plugin caches
+Engine/Plugins/**/Intermediate/*
+Engine/Plugins/**/Binaries/*
+
+# Optional: Ignore user-specific settings
+*.user
+*.userprefs
